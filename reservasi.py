@@ -31,3 +31,5 @@ if kode == "LUNAS":
 else:
     if kode != "":
         st.error("Kode pembayaran salah. Hubungi panitia jika ada masalah.")
+st.subheader("Daftar Kursi Kosong:")
+st.write(kursi_kosong)
